@@ -30,7 +30,7 @@ You can download the pretrained weight and vocab [here](https://drive.google.com
 
 The LM has a vocabulary of 30k tokens and a perplexity of 29.3.
 
-The model has been evaluated on the task of classifying movies reviews in two categories (positive or negatives). The movie reviews has been downloaded from a french imdb-like website and contains 11K positives reviews, 11K negatives reviews as well as 51K unlabelled reviews for language model tuning.
+The model has been evaluated on the task of classifying movies reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabelled reviews for language model tuning.
 The result is a 93% accuracy, which is good regarding other languages SOTA. 
 As of today, I am not aware of a public NLP classification benchmark in French, which would be great to evaluate the model on an objective dataset.
 
@@ -39,20 +39,20 @@ As of today, I am not aware of a public NLP classification benchmark in French, 
 
 Deep french is composed of:
 
-- Weights of a pretrained LM with a preplexity of 29.3
-- Examples on how to use the model to do classification tasks
+- Weights of a pretrained LM with a preplexity of 29.3.
+- Examples on how to use the model to do classification tasks.
 
 # Planning
 
 Available:
 
-- Weights of the pretrained french LM
+- Weights of the pretrained french LM ([here](https://drive.google.com/open?id=1_0D3zv5H7iMW1qk7wHNN1yQrHi6arv8g). ).
 - ULMFiT classifier example notebook: shows how to use ULMFiT to do a classification task. The example uses movies reviews of a french website. The data have been extracted using web scrapping and are not publicly available. 
 
 Next to come:
 
-- Notebook showing how to train the LM model on a corpus like wikipedia
-- Example on a twitter dataset for sentiment analysis
-- Implementation of a classifier using the BERT model from Google and performance comparison with ULMFiT
-- Other use cases of french LM
+- Notebook showing how to train the LM model on a corpus like wikipedia.
+- Example on a twitter dataset for sentiment analysis.
+- Implementation of a classifier using the BERT model from Google and performance comparison with ULMFiT.
+- Other use cases of french LM.
 
