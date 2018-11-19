@@ -2,7 +2,7 @@
 
 This is an implementation of the [ULMFit model](https://arxiv.org/abs/1801.06146) (Universal Language Model Fine-tuning for Text Classification) on French language.
 
-It uses the fastai v1 library (based on pytorch). Because the fastai v1 is in development, its API can often change. This repository will be updated to take into account changes.
+It uses the fastai v1 library (based on pytorch). Because the fastai v1 is in development, its API can often change. This repository will be updated to take changes into account.
 
 To install fastai v1, please follow the instructions on the official repository: [fastai v1](https://github.com/fastai/fastai).
 
@@ -30,7 +30,7 @@ You can download the pretrained weight and vocab [here](https://drive.google.com
 
 The LM has a vocabulary of 30k tokens and a perplexity of 29.3.
 
-The model has been evaluated on the task of classifying movies reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabelled reviews for language model tuning.
+The model have been evaluated on the task of classifying movie reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabelled reviews for language model tuning.
 The result is a 93% accuracy, which is good regarding other languages SOTA. 
 As of today, I am not aware of a public NLP classification benchmark in French, which would be great to evaluate the model on an objective dataset.
 
