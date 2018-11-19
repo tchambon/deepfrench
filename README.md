@@ -1,4 +1,4 @@
-# Deepfrench
+# Deep french
 
 This is an implementation of the [ULMFit model](https://arxiv.org/abs/1801.06146) (Universal Language Model Fine-tuning for Text Classification) on French language.
 
