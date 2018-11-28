@@ -39,7 +39,7 @@ As of today, I am not aware of a public NLP classification benchmark in French, 
 
 Deep french is composed of:
 
-- Weights of a pretrained LM with a preplexity of 29.3.
+- Weights of a pretrained LM with a perplexity of 29.3.
 - Examples on how to use the model to do classification tasks.
 
 # Planning
@@ -47,12 +47,12 @@ Deep french is composed of:
 Available:
 
 - Weights of the pretrained french LM ([here](https://drive.google.com/open?id=1_0D3zv5H7iMW1qk7wHNN1yQrHi6arv8g). ).
-- ULMFiT classifier example notebook: shows how to use ULMFiT to do a classification task. The example uses movies reviews of a french website. The data have been extracted using web scrapping and are not publicly available. 
+- ULMFiT classifier example notebook: how to use ULMFiT to do a classification task. The example uses movies reviews of a french website. The data have been extracted using web scrapping and are not publicly available. 
+- ULMFiT LM training example notebook: how to use ULMFiT to create a new LM. This example uses wikipedia in french with an extract of 100M words for training and a validation set of 22M words. The model have a perplexity of 29.3 for a 30K vocabulary.
 
 Next to come:
 
-- Notebook showing how to train the LM model on a corpus like wikipedia.
-- Example on a twitter dataset for sentiment analysis.
+- Example on a twitter dataset for sentiment analysis. Based on the DEFT french competition of 2017, this model gives a now SOTA. 
 - Implementation of a classifier using the BERT model from Google and performance comparison with ULMFiT.
 - Other use cases of french LM.
 
