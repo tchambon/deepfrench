@@ -18,7 +18,7 @@ Training the LM (language model) is a data intensive task. It requires lots of d
 But, when the LM is trained, using it to do tasks like classification is quick and requires much less data.
 ULMFiT shows state of the art results with much less data and computation (using a pretrained model) than previous approaches. 
 
-Since ULMFiT release in early 2018, other projets (using the same ideas of transfer learning with a pretrained LM) have been released with new SOTA (like Google BERT). 
+Since ULMFiT release in early 2018, other projects (using the same ideas of transfer learning with a pretrained LM) have been released with new SOTA (like Google BERT). 
 ULMFiT seems to still have very competitive results and is lightweight compared to models like BERT (further testing needs to be done to evaluate the differences). 
 
 
@@ -30,7 +30,7 @@ You can download the pretrained weight and vocab [here](https://drive.google.com
 
 The LM has a vocabulary of 30k tokens and a perplexity of 29.3.
 
-The model have been evaluated on the task of classifying movie reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabelled reviews for language model tuning.
+The model have been evaluated on the task of classifying movie reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabeled reviews for language model tuning.
 The result is a 93% accuracy, which is good regarding other languages SOTA. 
 As of today, I am not aware of a public NLP classification benchmark in French, which would be great to evaluate the model on an objective dataset.
 
