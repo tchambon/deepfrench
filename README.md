@@ -28,7 +28,7 @@ ULMFiT seems to still have very competitive results and is lightweight compared 
 The model has been trained on a 100 million words corpus, composed of an extract of Wikipedia in french. 
 You can download the pretrained weight and vocab [here](https://drive.google.com/open?id=1_0D3zv5H7iMW1qk7wHNN1yQrHi6arv8g). 
 
-The LM has a vocabulary of 30k tokens and a perplexity of 29.3.
+The LM has a vocabulary of 30k tokens and a perplexity of 24.36.
 
 The model have been evaluated on the task of classifying movie reviews in two categories (positive or negatives). The movie reviews have been downloaded from a french imdb-like website and include 11K positives reviews, 11K negatives reviews as well as 51K unlabeled reviews for language model tuning.
 The result is a 93% accuracy, which is good regarding other languages SOTA. 
@@ -39,7 +39,7 @@ As of today, I am not aware of a public NLP classification benchmark in French, 
 
 Deep french is composed of:
 
-- Weights of a pretrained LM with a perplexity of 29.3.
+- Weights of a pretrained LM with a perplexity of 24.36.
 - Examples on how to use the model to do classification tasks.
 
 # Planning
